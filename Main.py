@@ -37,7 +37,6 @@ model.add(tf.keras.Input(shape=(11)))
 model.add(Dense(11))
 model.add(Dense(11, activation='relu'))
 model.add(Dense(2, activation='sigmoid'))
-
 y=data['risk_flag'].values
 
 model.compile(
